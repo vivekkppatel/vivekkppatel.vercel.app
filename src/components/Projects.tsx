@@ -28,15 +28,6 @@ const projects: Project[] = [
     date: "3/1/26",
     link: "https://zoning-agent-app-web.vercel.app/",
   },
-  {
-    title: "Vivblendz",
-    image: "/vivblendz-preview.png",
-    description:
-      "Barbershop booking app for solo barbers. Customers browse services, pick time slots, and book instantly — no account needed. Includes a private admin dashboard and email notifications.",
-    tags: ["Next.js", "Supabase", "TypeScript", "Resend"],
-    date: "5/1/26",
-    link: "https://vivblendz-va.vercel.app/",
-  },
 ];
 
 export function Projects() {

@@ -26,7 +26,7 @@ const projects: Project[] = [
       "Conversational AI using IBM watsonx.ai and Google APIs to query municipal zoning regulations in natural language, cutting research time by 50–60%.",
     tags: ["IBM watsonx.ai", "RAG", "Python"],
     date: "3/1/26",
-    link: "https://zoning-agent-app-web.vercel.app/",
+    link: "https://zoning-agent-platform.vercel.app/",
   },
 ];
 

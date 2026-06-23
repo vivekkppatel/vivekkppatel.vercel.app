@@ -28,6 +28,14 @@ const projects: Project[] = [
     date: "3/1/26",
     link: "https://zoning-agent-platform.vercel.app/",
   },
+  {
+    title: "2026 World Cup Analytics",
+    description:
+      "Real-time player performance and match analytics dashboard for the 2026 FIFA World Cup. Features passing networks, a match prediction engine, player valuation metrics, and a bracket predictor using Monte Carlo simulations.",
+    tags: ["Streamlit", "PostgreSQL", "scikit-learn", "Plotly"],
+    date: "5/1/26",
+    link: "https://2026-world-cup-analysis-bxfezsmjakyc6muds347v3.streamlit.app/",
+  },
 ];
 
 export function Projects() {

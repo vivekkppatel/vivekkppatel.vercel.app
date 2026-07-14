@@ -16,26 +16,26 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    role: "Accounting Intern",
+    company: "Chirag Patel CPA PLLC",
+    period: "May 2026 – Present",
+    description:
+      "Prepare individual and corporate tax returns alongside the lead CPA — 10+ filings including S-corp, partnership, and 1040 extensions, identifying $100K+ in deductions across the client base. Run variance analysis on client cash flows to support data-driven wealth management strategies.",
+  },
+  {
+    role: "Self-Taught College Barber",
+    company: "Entrepreneurial Venture",
+    period: "Dec 2024 – Present",
+    description:
+      "Built a recurring client base of 85–90, averaging 10–15 cuts a week while handling scheduling, pricing, and relationships. Grew ~30% through referrals and social media with no paid ads — $15,000+ in revenue and clients retained 18+ months.",
+    link: "https://www.instagram.com/vivblendz.va",
+  },
+  {
     role: "Co-founder",
     company: "Arcanium Labs",
     period: "Aug 2024 – May 2025",
     description:
-      "Raised $800K and built AI agents for construction estimating. Accepted into Microsoft for Startups with $350K in Azure credits.",
-  },
-  {
-    role: "Extern",
-    company: "Volvo Penta",
-    period: "Jun 2024 – Jul 2024",
-    description:
-      "Analyzed manufacturing workflows, cost structures, and supply chain dynamics alongside senior finance and operations teams.",
-  },
-  {
-    role: "Founder",
-    company: "Small Independent Business",
-    period: "Dec 2024 – Present",
-    description:
-      "Scaled to 50–70 recurring clients and $10K+ revenue. Grew acquisition ~30% through social media and referrals.",
-    link: "https://www.instagram.com/vivblendz.va",
+      "Co-founded an AI startup automating construction cost estimating; raised $800K and earned admission to Microsoft for Startups with $350K in Azure credits. Led the engineering team behind the estimating agents, then returned all capital to investors to attend college full-time.",
   },
 ];
 
@@ -63,7 +63,8 @@ export function About() {
               (Class of 2028). I build AI systems and quantitative finance applications.
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-6">
-              Outside of work: tennis, pickleball, cooking, photography, music, and hiking.
+              Outside of work: tennis, sports analytics, cooking Indian food,
+              DaVinci Resolve editing, RnB music, and hiking.
             </p>
             <div className="space-y-1">
               <p className="text-xs text-neutral-400 dark:text-neutral-500 font-medium uppercase tracking-widest mb-2">
@@ -73,6 +74,7 @@ export function About() {
                 "Bloomberg Market Concepts",
                 "Claude Education (Anthropic)",
                 "JPMorgan IB Forage Simulation",
+                "HackerRank SQL",
               ].map((cert) => (
                 <p
                   key={cert}

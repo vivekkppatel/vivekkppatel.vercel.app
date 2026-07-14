@@ -8,6 +8,7 @@ import {
   SiNumpy,
   SiTensorflow,
   SiPlotly,
+  SiR,
 } from "react-icons/si";
 import { FaJava, FaFileExcel, FaDatabase } from "react-icons/fa";
 import type { IconType } from "react-icons";
@@ -27,6 +28,7 @@ const languages: Skill[] = [
   { name: "Python", Icon: SiPython, color: "#3776AB" },
   { name: "Java", Icon: FaJava, color: "#ED8B00" },
   { name: "SQL", Icon: FaDatabase, color: "#4479A1" },
+  { name: "R", Icon: SiR, color: "#276DC3" },
   { name: "React", Icon: SiReact, color: "#61DAFB" },
 ];
 
@@ -68,6 +70,25 @@ const dataTools: CustomSkill[] = [
         <rect x="28" y="12" width="8" height="30" rx="2" fill="#F2C811" opacity="0.7" />
         <rect x="39" y="6" width="8" height="36" rx="2" fill="#F2C811" opacity="0.55" />
         <circle cx="10" cy="10" r="6" fill="#F2C811" opacity="0.4" />
+      </svg>
+    ),
+  },
+  {
+    name: "Bloomberg",
+    svg: (
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <rect x="4" y="4" width="40" height="40" rx="6" fill="#000000" />
+        <text
+          x="24"
+          y="32"
+          textAnchor="middle"
+          fontFamily="Georgia, serif"
+          fontSize="26"
+          fontWeight="700"
+          fill="#FF6600"
+        >
+          B
+        </text>
       </svg>
     ),
   },
@@ -151,7 +172,7 @@ export function Skills() {
           <h3 className="text-base font-bold text-neutral-900 dark:text-white text-center mb-6">
             Data Tools
           </h3>
-          <div className="grid grid-cols-3 gap-1 max-w-xs mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-1 max-w-md mx-auto">
             {dataTools.map((skill) => (
               <CustomSkillIcon key={skill.name} skill={skill} />
             ))}

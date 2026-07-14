@@ -33,6 +33,12 @@ export function Nav() {
             About
           </a>
           <a
+            href="#leadership"
+            className="hidden sm:inline text-sm text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
+          >
+            Leadership
+          </a>
+          <a
             href="#skills"
             className="text-sm text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors"
           >

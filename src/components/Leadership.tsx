@@ -14,6 +14,13 @@ const activities: Activity[] = [
       "Spearheading the launch of a professional business fraternity chapter from the ground up — developing marketing strategies, recruiting members, and establishing the fraternity's presence on campus.",
   },
   {
+    role: "Volunteer",
+    org: "Chesapeake Animal Services Unit",
+    period: "Jun 2026 – Present",
+    description:
+      "Provide independent, hands-on care and enrichment for shelter animals — reading behavioral cues, safely navigating dynamic outdoor terrain, and maintaining strict adherence to facility safety protocols.",
+  },
+  {
     role: "Student Athlete",
     org: "Pickleball Club",
     period: "Sep 2024 – Present",

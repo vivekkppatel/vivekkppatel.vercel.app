@@ -34,9 +34,12 @@ export function Hero() {
               Fintech &amp; Big Data Analytics @ Virginia Tech
             </p>
             <p className="text-base text-neutral-500 dark:text-neutral-500 max-w-xl leading-relaxed mb-8">
-              B.S. in Fintech and Big Data Analytics (Quantitative Finance) at
-              Virginia Tech. I build AI systems, data pipelines, and full-stack
-              applications at the intersection of finance and technology.
+              Dual B.S. in Fintech and Big Data Analytics (Quantitative
+              Finance) and Finance (Investment Management &amp; CFA) at Virginia
+              Tech&apos;s Pamplin College of Business, with minors in Artificial
+              Intelligence and Statistics. I build AI systems, data pipelines,
+              and full-stack applications at the intersection of finance and
+              technology.
             </p>
             <div className="flex flex-wrap justify-center sm:justify-start gap-3">
               <a

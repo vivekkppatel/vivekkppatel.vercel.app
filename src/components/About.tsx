@@ -18,9 +18,9 @@ const experiences: Experience[] = [
   {
     role: "Accounting Intern",
     company: "Chirag Patel CPA PLLC",
-    period: "May 2026 – Present",
+    period: "May 2026 – Jul 2026",
     description:
-      "Prepare individual and corporate tax returns alongside the lead CPA — 10+ filings including S-corp, partnership, and 1040 extensions, identifying $100K+ in deductions across the client base. Run variance analysis on client cash flows to support data-driven wealth management strategies.",
+      "Prepared individual and corporate tax returns alongside the lead CPA — 10+ filings including S-corp, partnership, and 1040 extensions, identifying $100K+ in deductions across the client base. Ran variance analysis on client cash flows to support data-driven wealth management strategies.",
   },
   {
     role: "Self-Taught College Barber",
@@ -56,11 +56,17 @@ export function About() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           <div className="md:col-span-2">
             <p className="text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
-              Fintech &amp; Big Data Analytics student at{" "}
+              Dual-degree student at{" "}
               <span className="font-medium text-neutral-900 dark:text-white">
                 Virginia Tech
-              </span>{" "}
-              (Class of 2028). I build AI systems and quantitative finance applications.
+              </span>
+              &apos;s Pamplin College of Business (Class of 2028), studying
+              Fintech &amp; Big Data Analytics (Quantitative Finance) and Finance
+              (Investment Management &amp; CFA), with minors in Artificial
+              Intelligence and Statistics.
+            </p>
+            <p className="text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
+              I build AI systems and quantitative finance applications.
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-6">
               Outside of work: tennis, sports analytics, cooking Indian food,

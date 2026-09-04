@@ -16,9 +16,9 @@ const activities: Activity[] = [
   {
     role: "Volunteer",
     org: "Chesapeake Animal Services Unit",
-    period: "Jun 2026 – Present",
+    period: "Jun 2026 – Jul 2026",
     description:
-      "Provide independent, hands-on care and enrichment for shelter animals — reading behavioral cues, safely navigating dynamic outdoor terrain, and maintaining strict adherence to facility safety protocols.",
+      "Provided independent, hands-on care and enrichment for shelter animals — interpreting behavioral cues, safely navigating dynamic outdoor terrain, and maintaining strict adherence to facility safety protocols.",
   },
   {
     role: "Student Athlete",

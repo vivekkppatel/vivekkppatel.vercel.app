@@ -31,11 +31,11 @@ const experiences: Experience[] = [
     link: "https://www.instagram.com/vivblendz.va",
   },
   {
-    role: "Co-founder",
+    role: "Independent AI Engineer Project",
     company: "Arcanium Labs",
     period: "Aug 2024 – May 2025",
     description:
-      "Co-founded an AI startup automating construction cost estimating; raised $800K and earned admission to Microsoft for Startups with $350K in Azure credits. Led the engineering team behind the estimating agents, then returned all capital to investors to attend college full-time.",
+      "Created an AI startup using workflows that automated construction cost estimating and raised outside capital. Earned admission to Microsoft for Startups with $350K in Azure credits. Led the engineering team that designed and deployed the AI estimating agents for material takeoffs, logistics, and job costing.",
   },
 ];
 
